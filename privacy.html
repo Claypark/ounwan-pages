@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>개인정보 처리방침 - 오운완</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0A0D14;
+            color: #E3E8F0;
+            line-height: 1.7;
+            padding: 24px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #C8A2FF;
+            margin-bottom: 24px;
+            font-size: 24px;
+        }
+        h2 {
+            color: #D4B5FF;
+            margin: 28px 0 12px;
+            font-size: 18px;
+        }
+        p, li {
+            color: #B0BAC9;
+            margin-bottom: 12px;
+        }
+        ul { padding-left: 20px; }
+        .highlight {
+            background: rgba(200, 162, 255, 0.08);
+            border: 1px solid rgba(200, 162, 255, 0.2);
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 24px;
+        }
+        a {
+            color: #C8A2FF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #5A6577;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🔮 오운완 개인정보 처리방침</h1>
+
+    <div class="highlight">
+        오운완(오늘의 운세 완료!)은 이용자의 개인정보를 안전하게 보호하며, 서비스 제공에 필요한 최소한의 정보만 수집합니다.
+    </div>
+
+    <h2>1. 수집하는 개인정보 항목</h2>
+    <p>앱은 서비스 제공을 위해 다음 정보를 수집합니다:</p>
+    <ul>
+        <li><strong>계정 정보</strong>
+            <ul>
+                <li>Google 소셜 로그인을 통한 이메일 및 사용자 식별 정보</li>
+                <li>수집 목적: 회원 식별, 데이터 동기화 및 이용권 관리</li>
+            </ul>
+        </li>
+        <li><strong>생년월일 및 출생 시간</strong>
+            <ul>
+                <li>이용자가 직접 입력한 생년월일, 출생 시간(태어난 시), 성별</li>
+                <li>수집 목적: 사주팔자 계산 및 AI 운세 분석</li>
+                <li>로컬 기기에 저장되며, 운세 생성 시 서버에 전송됩니다.</li>
+            </ul>
+        </li>
+        <li><strong>운세 이용 기록</strong>
+            <ul>
+                <li>운세 조회 이력, 궁합 분석 이력, 무료 이용권 사용 내역</li>
+                <li>수집 목적: 서비스 제공 및 이용권 관리</li>
+            </ul>
+        </li>
+        <li><strong>기기 정보</strong>
+            <ul>
+                <li>기기 식별자, OS 버전</li>
+                <li>수집 목적: 서비스 최적화 및 오류 진단</li>
+            </ul>
+        </li>
+        <li><strong>푸시 알림 토큰</strong>
+            <ul>
+                <li>수집 목적: 매일 아침 운세 알림 발송</li>
+                <li>알림 권한을 거부하면 수집되지 않습니다.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>2. 개인정보의 보유 및 이용 기간</h2>
+    <ul>
+        <li>생년월일 및 출생 시간: 기기 내 로컬 저장, 앱 삭제 시 삭제</li>
+        <li>계정 정보: 회원 탈퇴 시까지</li>
+        <li>운세 이용 기록: 회원 탈퇴 시까지</li>
+        <li>푸시 토큰: 서비스 이용 기간</li>
+    </ul>
+    <p>회원 탈퇴 또는 앱 삭제 시 기기에 저장된 모든 정보는 삭제됩니다.</p>
+
+    <h2>3. 개인정보의 제3자 제공</h2>
+    <p>앱은 다음의 경우를 제외하고 개인정보를 제3자에게 제공하지 않습니다:</p>
+    <ul>
+        <li>법령에 의해 요구되는 경우</li>
+        <li>서비스 제공을 위한 필수적인 경우 (아래 참조)</li>
+    </ul>
+
+    <h2>4. 외부 서비스 이용</h2>
+    <p>앱은 다음 외부 서비스를 이용합니다:</p>
+    <ul>
+        <li><strong>Firebase (Google)</strong>
+            <ul>
+                <li>용도: 인증(Google 로그인), 데이터 저장(Firestore), 푸시 알림</li>
+                <li><a href="https://policies.google.com/privacy" target="_blank">개인정보처리방침</a></li>
+            </ul>
+        </li>
+        <li><strong>OpenAI API</strong>
+            <ul>
+                <li>용도: AI 기반 운세 및 궁합 분석 생성</li>
+                <li>사주 데이터가 서버를 통해 전송됩니다. 개인 식별 정보(이름, 연락처 등)는 전송되지 않습니다.</li>
+                <li><a href="https://openai.com/policies/privacy-policy" target="_blank">개인정보처리방침</a></li>
+            </ul>
+        </li>
+        <li><strong>Google AdMob</strong>
+            <ul>
+                <li>용도: 광고 표시</li>
+                <li>광고 ID가 수집될 수 있습니다.</li>
+                <li><a href="https://policies.google.com/privacy" target="_blank">개인정보처리방침</a></li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>5. 이용자의 권리</h2>
+    <ul>
+        <li>앱 삭제를 통해 언제든지 서비스 이용을 중단할 수 있습니다.</li>
+        <li>앱 삭제 시 기기에 저장된 생년월일, 운세 기록 등 모든 데이터가 삭제됩니다.</li>
+        <li>설정에서 푸시 알림 수신 여부를 변경할 수 있습니다.</li>
+        <li>로그아웃을 통해 계정 연결을 해제할 수 있습니다.</li>
+    </ul>
+
+    <h2>6. 개인정보 보호책임자</h2>
+    <p>앱의 개인정보 관련 문의사항은 아래로 연락해주세요:</p>
+    <p>이메일: <a href="mailto:claypark12@gmail.com">claypark12@gmail.com</a></p>
+
+    <h2>7. 방침의 변경</h2>
+    <p>본 방침은 변경될 수 있으며, 변경 시 앱 내 공지를 통해 안내됩니다.</p>
+
+    <div class="footer">
+        시행일: 2026년 2월 13일<br>
+        &copy; 2026 오운완
+    </div>
+
+</body>
+</html>
